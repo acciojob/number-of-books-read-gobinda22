@@ -17,10 +17,10 @@ const library = [
 ];
 
 const numberOfBooksRead = () => {
-  const c = 0;
+  let c = 0;
   for(let i=0;i<library.length;i++){
-	  if(library[readingStatus] == true){
-		  c++;
+	  if(library[i].readingStatus == true){
+		  c+=1;
 	  }
   }
 	return c;
